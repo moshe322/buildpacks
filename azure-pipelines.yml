@@ -15,14 +15,5 @@ steps:
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
+    echo See https://aka.ms/yaml    
   displayName: 'Run a multi-line script'
-  apiVersion: v1
-  kind: Pod
-  metadata:
-    name: moshe
-  containers:
-    image: tmoshe/msh:PCMASTER-1.0-SNAPSHOT.war
-    name: moshe
-    ports:
-      containerPort: 8080
